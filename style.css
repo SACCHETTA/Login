@@ -108,3 +108,26 @@ body {
   text-decoration: none;
   font-size: 0.9rem;
 }
+
+
+/* RESPONSIVO PARA CELULAR */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+  }
+
+  .direita {
+    margin-top: 10px;
+  }
+
+  .direita a {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+
+  .login-form {
+    padding: 20px;
+  }
+}
